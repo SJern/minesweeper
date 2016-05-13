@@ -2,7 +2,7 @@ class Tile
   def initialize
     @value = 0
     @mine = false
-    @showed = true
+    @showed = false
     @flagged = false
   end
 

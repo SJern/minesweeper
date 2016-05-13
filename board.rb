@@ -48,7 +48,6 @@ class Board
 
   def surrounding_positions(pos)
     y, x = pos
-
     [
       [y-1, x-1],
       [y-1, x],
@@ -75,7 +74,3 @@ class Board
   end
 
 end
-
-board = Board.new
-board.populate
-puts board.render
